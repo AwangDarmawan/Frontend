@@ -13,16 +13,19 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
     crossorigin="anonymous"
      />
-   <link rel="stylesheet" href="asset/style.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="asset/style.css">
 </head>
 <body>
     <!-- jumbroton -->
-     <div class="container mt-3 pt-5   ">
+     <div class="container mt-3 pt-5  ">
       <h2>Selamat Datang</h2>
-      <div class="mt-4 p-5 bg-primary text-white rounded">
+      <div class="mt-4 p-5 bg-primary text-white rounded" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-center">
         <h1>Riwayat Hidup</h1> 
         <p>Profil AD </p> 
       </div>
+    </div>
       <!-- end -->
       
     <!-- navbar -->
@@ -54,5 +57,9 @@
         </div>
       </nav>
       <!-- end -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
