@@ -1,3 +1,25 @@
 .nav-item {
     padding-right: 50px;
-} 
+}
+.row  {
+    padding : 10px;  
+}
+.font{
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50px;
+    color:white;
+    background-color: blue;
+  }  
+  .font i{
+    position: relative;
+    top:30px;
+  }
+  .card{
+    width: 18rem
+  }
+  .form-control:hover{
+    background-color:rgb(8, 65, 234);
+  }
