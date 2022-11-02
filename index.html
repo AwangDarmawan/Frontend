@@ -20,10 +20,10 @@
     <!-- jumbroton -->
      <div class="container mt-3 pt-5  ">
       <h2>Selamat Datang</h2>
-      <div class="mt-4 p-5 bg-primary text-white rounded" data-aos="fade-up"
+      <div class="mt-4 p-5 bg-primary text-white rounded"
       data-aos-anchor-placement="bottom-center">
-        <h1>Riwayat Hidup</h1> 
-        <p>Profil AD </p> 
+        <h1 data-aos="fade-up">Riwayat Hidup</h1> 
+        <p data-aos="fade-up">Profil AD </p> 
       </div>
     </div>
       <!-- end -->
@@ -62,7 +62,7 @@
       <section id="profil">
       <div class="container mt-3 pt-4 pb-5"> 
        <div class="row">
-        <div class="col-sm-8 ">
+        <div class="col-sm-8 "data-aos="fade-right">
           <h1>Tentang Saya</h1>
             <h5>informasi Pribadi</h5>
           <div class="row">
@@ -126,7 +126,7 @@
           <h1>Galery</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illum!</p>
           <div class="d-flex justify-content-around">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="asset/img/a.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -135,7 +135,7 @@
               </div>
             </div>
     
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="asset/img/bjpeg.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -144,7 +144,7 @@
               </div>
             </div>
     
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="asset/img/c.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -177,7 +177,36 @@
       </div>
     </section>
     <!-- end -->
-      
+    
+      <!-- kontak -->
+    <section id="kontak">
+      <div class="container">
+        <div class="row text-center mb-2">
+            <h1>Kontak Saya</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-2">
+                <label for="name" class="form-label" >Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <div class="mb-2">
+                <label for="email" class="form-label" >Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <div class="mb-2">
+                <label for="pesan" class="form-label" >Pesan</label>
+                <textarea id="pesan" class="form-control" rows="3" ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
